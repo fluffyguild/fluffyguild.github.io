@@ -36,8 +36,9 @@ h3 {
     text-align: center;
     background-attachment: scroll;
     background-position: 0% 0%;
-    position: fixed;
-    bottom: 1pt;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
     float: right;
     color: white;
     }
@@ -150,6 +151,16 @@ h3 {
         backdrop-filter: blur(10px);
       }
 
+    .foot {
+            background: rgba(0, 0, 0, 0);
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+    }
       li {
         float: left;
         text-align: center;
